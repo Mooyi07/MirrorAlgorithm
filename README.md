@@ -1,6 +1,6 @@
 # 🔄 Mirror Alphabet Converter (Java)
 
-This is a simple Java program that takes an input string and outputs its **mirrored version** of the alphabet.  
+This is a simple Java program that takes an input string or reads from a text file and outputs its **mirrored version** of the alphabet.
 
 ## ✨ Features
 - Converts **uppercase letters** to their mirrored counterparts  
@@ -8,11 +8,28 @@ This is a simple Java program that takes an input string and outputs its **mirro
 - Converts **lowercase letters** to uppercase before mirroring  
   - Example: `a → Z`, `b → Y`, `c → X`  
 - Keeps **numbers, spaces, and symbols unchanged**  
+- Can **read multiple lines from a text file (`inputs.txt`)** and mirror each line
 
 ## 📌 Example
 ```
-Input:  Abc123
-Output: ZYX123
+Input (from inputs.txt):
+WRXG
+JAVA
+237WGASG
+xlwv123
+
+Output:
+Input string: WRXG
+Mirrored string: DICK
+
+Input string: JAVA
+Mirrored string: QZEV
+
+Input string: 237WGASG
+Mirrored string: 237DTZHT
+
+Input string: xlwv123
+Mirrored string: CDOE123
 ```
 
 ## 🛠️ How to Run
@@ -25,14 +42,18 @@ Output: ZYX123
    ```bash
    java Main
    ```
-4. Enter your string and see the mirrored result.
+4. Prepare an `inputs.txt` file in the same directory with the text you want mirrored.
 
 ## 📂 File Structure
 ```
 .
 ├── Main.java     # Source code
+├── inputs.txt    # Sample input file
 └── README.md     # Project documentation
 ```
+
+## 🏷️ Tags
+`java`, `string-manipulation`, `beginner-project`, `alphabet`, `mirror`, `text-processing`, `console-app`
 
 ## 📜 License
 This project is open-source and free to use.
