@@ -20,7 +20,7 @@ xlwv123
 
 Output:
 Input string: WRXG
-Mirrored string: DICK
+Mirrored string: DICT
 
 Input string: JAVA
 Mirrored string: QZEV
